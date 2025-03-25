@@ -6,7 +6,7 @@ export const Route = createFileRoute("/admin")({
 
 function RouteComponent() {
   return (
-    <div className="min-h-screen bg-gray-100">
+    <div className="min-h-screen w-full bg-gray-100">
       <nav className="bg-[#2a3d45] text-white shadow-md">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between h-16">

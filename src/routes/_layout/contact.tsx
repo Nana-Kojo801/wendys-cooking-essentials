@@ -6,7 +6,7 @@ export const Route = createFileRoute("/_layout/contact")({
 
 function RouteComponent() {
   return (
-    <div className="bg-white">
+    <div className="bg-white w-full">
       {/* Hero Section */}
       <div className="relative bg-[#2a3d45] text-white">
         <div className="absolute inset-0 opacity-20">

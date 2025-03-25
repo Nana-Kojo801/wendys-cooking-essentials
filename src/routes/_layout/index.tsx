@@ -6,7 +6,7 @@ export const Route = createFileRoute("/_layout/")({
 
 function RouteComponent() {
   return (
-    <div>
+    <div className="w-full">
       {/* Hero Section */}
       <div className="relative bg-white overflow-hidden mt-5">
         <div className="max-w-7xl mx-auto">

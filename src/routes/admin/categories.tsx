@@ -88,7 +88,7 @@ function RouteComponent() {
   );
 
   return (
-    <div>
+    <div className="w-full">
       <div className="flex justify-between items-center">
         <h1 className="text-2xl font-semibold text-gray-900">Categories</h1>
         <button
