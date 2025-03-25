@@ -11,7 +11,7 @@ function RouteComponent() {
       <div className="relative bg-[#2a3d45] text-white">
         <div className="absolute inset-0 opacity-20">
           <img
-            src="/src/assets/contact-image.jpg"
+            src="/kitchen-image.jpg"
             alt="Kitchen background"
             className="w-full h-full object-cover"
           />
