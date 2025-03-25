@@ -1,5 +1,6 @@
 import { useState } from "react"
 import { Link } from "@tanstack/react-router"
+import { Menu } from 'lucide-react'
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
@@ -75,7 +76,7 @@ const Navbar = () => {
               onClick={toggleMobileMenu}
             >
               <span className="sr-only">Open main menu</span>
-              <i className="fas fa-bars"></i>
+              <Menu />
             </button>
           </div>
         </div>
